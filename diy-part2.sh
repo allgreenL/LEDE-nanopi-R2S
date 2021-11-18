@@ -13,5 +13,5 @@
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 
-sed -i 's,http://www.cryptopp.com/,https://src.fedoraproject.org/lookaside/pkgs/rpms/cryptopp/cryptopp564.zip/4ee7e5cdd4a45a14756c169eaf2a77fc,g' package/lean/libcryptopp/Makefile
+#sed -i 's,http://www.cryptopp.com/,https://src.fedoraproject.org/lookaside/pkgs/rpms/cryptopp/cryptopp564.zip/4ee7e5cdd4a45a14756c169eaf2a77fc,g' package/lean/libcryptopp/Makefile
 
